@@ -15,18 +15,18 @@ Facebook提供了“Integrating with Existing Apps”方案，但是需要使用
 	
 	添加完成如下图     
 	
-![](pic/in_app_1.png)	
+![](describe_image/in_app_1.png)	
 
 	6. Build Rules中添加静态库文件，如下图         
 	
-![](pic/in_app_2.png)       
+![](describe_image/in_app_2.png)       
 
 
 	7.添加依赖循环    
 	$(SRCROOT)/node_modules/react-native/React
 	如下图所示：       
 
-![](pic/in_app_3.png)      
+![](describe_image/in_app_3.png)      
 
 8.修改AppDelegate.m应用启动代码      
    
@@ -98,7 +98,7 @@ Facebook提供了“Integrating with Existing Apps”方案，但是需要使用
 
 10.还需要设置下Other Linker Flags, 如下图
 
-![](pic/in_app_4.png)	       
+![](describe_image/in_app_4.png)	       
    
    
    	11. OK 享受编程吧   
